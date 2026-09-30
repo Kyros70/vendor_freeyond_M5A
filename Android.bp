@@ -1,0 +1,535 @@
+// Generated from M5A stock dump (dumpyara)
+
+soong_namespace {
+}
+
+android_app_import {
+    name: "AutoRecordingTest",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/AutoRecordingTest/AutoRecordingTest.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "CamTa",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/CamTa/CamTa.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "CameraCalibration",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/CameraCalibration/CameraCalibration.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "DeviceagingTest",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/DeviceagingTest/DeviceagingTest.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "DreamCamera2",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/DreamCamera2/DreamCamera2.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "DreamFMRadio",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/DreamFMRadio/DreamFMRadio.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "DreamSoundRecorderPrebuilt",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/DreamSoundRecorderPrebuilt/DreamSoundRecorderPrebuilt.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "EngineerMode",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "GmsEEAType4cIntegration",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/GmsEEAType4cIntegration/GmsEEAType4cIntegration.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "GmsSampleIntegration",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/GmsSampleIntegration/GmsSampleIntegration.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "LinkTurbo",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/LinkTurbo/LinkTurbo.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "RuntimeTest",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/RuntimeTest/RuntimeTest.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SGPS",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/SGPS/SGPS.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SoterService",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/SoterService/SoterService.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "USCPhotoEdit_prebuilt",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/USCPhotoEdit_prebuilt/USCPhotoEdit_prebuilt.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "USCPhotosProvider",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/USCPhotosProvider/USCPhotosProvider.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UnisocStk",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/UnisocStk/UnisocStk.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ValidationTools",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/ValidationTools/ValidationTools.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "WAPPushManager",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/app/WAPPushManager/WAPPushManager.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "AIEngineService",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/AIEngineService/AIEngineService.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "CarrierConfig",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/CarrierConfig/CarrierConfig.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "EmergencyInfoGms",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/EmergencyInfoGms/EmergencyInfoGms.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "GoogleFeedback",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "GoogleServicesFramework",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "NetworkSliceAgent",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/NetworkSliceAgent/NetworkSliceAgent.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "OmacpPrebuilt",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/OmacpPrebuilt/OmacpPrebuilt.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "PowerSaveModeLauncherPrebuilt",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/PowerSaveModeLauncherPrebuilt/PowerSaveModeLauncherPrebuilt.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "RemoteProvisioner",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/RemoteProvisioner/RemoteProvisioner.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SearchLauncherQuickStep",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/SearchLauncherQuickStep/SearchLauncherQuickStep.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ServiceUniWifiResources",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/ServiceUniWifiResources/ServiceUniWifiResources.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SetupWizard",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/SetupWizard/SetupWizard.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SprdCalendarProviderPrebuilt",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/SprdCalendarProviderPrebuilt/SprdCalendarProviderPrebuilt.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SprdContactsProvider",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/SprdContactsProvider/SprdContactsProvider.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "Srmi",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/Srmi/Srmi.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "StorageManager",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/StorageManager/StorageManager.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "SystemUI",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/SystemUI/SystemUI.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ThemePicker",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/ThemePicker/ThemePicker.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UniSilentReboot",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/UniSilentReboot/UniSilentReboot.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UniTelephony",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/UniTelephony/UniTelephony.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UniWifiDialog",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/UniWifiDialog/UniWifiDialog.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "WallpaperCropper",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ims",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/ims/ims.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "radio_interactor_service",
+    owner: "freeyond",
+    apk: "proprietary/system_ext/priv-app/radio_interactor_service/radio_interactor_service.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "LogManager",
+    owner: "freeyond",
+    apk: "proprietary/vendor/app/LogManager/LogManager.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    soc_specific: true,
+}
+
+android_app_import {
+    name: "ProxyNFwLocation",
+    owner: "freeyond",
+    apk: "proprietary/vendor/app/ProxyNFwLocation/ProxyNFwLocation.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    soc_specific: true,
+}
+
+android_app_import {
+    name: "UASetting",
+    owner: "freeyond",
+    apk: "proprietary/vendor/app/UASetting/UASetting.apk",
+    certificate: "PRESIGNED",
+    dex_preopt: {
+        enabled: false,
+    },
+    soc_specific: true,
+}
+
