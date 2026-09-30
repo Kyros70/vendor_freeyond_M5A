@@ -1,0 +1,7 @@
+<manifest version="1.0" type="device">
+<!--
+    SPDX-FileCopyrightText: 2016-2023 Unisoc (Shanghai) Technologies Co., Ltd
+    SPD-License-Identifier: LicenseRef-Unisoc-General-1.0
+-->
+    <kernel target-level="6" />
+</manifest>

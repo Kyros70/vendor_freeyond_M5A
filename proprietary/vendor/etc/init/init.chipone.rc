@@ -1,0 +1,5 @@
+on boot
+#add for chipone fingerprint
+	chmod 0777 /dev/fpsensor   
+	chown system system /dev/fpsensor
+

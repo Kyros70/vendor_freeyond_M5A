@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+     SPDX-FileCopyrightText: 2016-2023 Unisoc (Shanghai) Technologies Co., Ltd
+     SPDX-License-Identifier: LicenseRef-Unisoc-General-1.0
+-->
+<powercontroller>
+<applist_in_ultrasave>
+<appname>com.google.android.dialer/.extensions.GoogleDialtactsActivity#0</appname>
+<appname>com.google.android.apps.messaging/.ui.ConversationListActivity#1</appname>
+<appname>com.google.android.contacts/com.android.contacts.activities.PeopleActivity#2</appname>
+</applist_in_ultrasave>
+</powercontroller>

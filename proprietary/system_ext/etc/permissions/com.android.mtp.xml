@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2022 UNISOC Open Source Project
+   -->
+<permissions>
+     <privapp-permissions package="com.android.mtp">
+              <permission name="sprd.permission.PROTECT_PROCESS"/>
+     </privapp-permissions>
+</permissions>

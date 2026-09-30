@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- hide GoogleDocumentsUI icon -->
+<config>
+  <component-override package="com.google.android.documentsui" >
+    <component class="com.android.documentsui.LauncherActivity" enabled="false" />
+  </component-override>
+</config>

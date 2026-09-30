@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2016-2023 Unisoc (Shanghai) Technologies Co., Ltd
+# SPDX-License-Identifier: LicenseRef-Unisoc-General-1.0
+import /vendor/etc/init/hw/init.ram.gms.rc
+import /vendor/etc/init/hw/init.ram.native.rc
+import /vendor/etc/init/hw/init.zramwb.rc
+
+on property:sys.boot_completed=1 && property:persist.sys.ramconfig=0
+	setprop persist.sys.ramconfigSwitch 0
+	
+on property:sys.boot_completed=1 && property:persist.sys.ramconfig=1
+	swapon_all /vendor/etc/fstab.enableswap_1g
+	write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+	write /proc/sys/vm/direct_swappiness 100
+	write sys/module/emem/parameters/enable 1
+	
+on property:sys.boot_completed=1 && property:persist.sys.ramconfig=2
+	swapon_all /vendor/etc/fstab.enableswap_2g
+	write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+	write /proc/sys/vm/direct_swappiness 100
+	write sys/module/emem/parameters/enable 1
+
+on property:sys.boot_completed=1 && property:persist.sys.ramconfig=3
+	swapon_all /vendor/etc/fstab.enableswap_3g
+	write /sys/module/process_reclaim/parameters/enable_process_reclaim 1
+	write /proc/sys/vm/direct_swappiness 100
+	write sys/module/emem/parameters/enable 1
