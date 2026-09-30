@@ -180,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_ODM)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
     vendor/freeyond/M5A/proprietary/odm/etc/sensor_config.xml:$(TARGET_COPY_OUT_ODM)/etc/sensor_config.xml \
     vendor/freeyond/M5A/proprietary/odm/etc/unipnp/UniFeature.xml:$(TARGET_COPY_OUT_ODM)/etc/unipnp/UniFeature.xml \
-    vendor/freeyond/M5A/proprietary/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest.xml \
-    vendor/freeyond/M5A/proprietary/odm/etc/vintf/manifest/manifest_kernel.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest/manifest_kernel.xml \
     vendor/freeyond/M5A/proprietary/odm/etc/zoom_config.json:$(TARGET_COPY_OUT_ODM)/etc/zoom_config.json \
     vendor/freeyond/M5A/proprietary/odm/firmware/bt_configure_pskey.ini:$(TARGET_COPY_OUT_ODM)/firmware/bt_configure_pskey.ini \
     vendor/freeyond/M5A/proprietary/odm/firmware/bt_configure_rf.ini:$(TARGET_COPY_OUT_ODM)/firmware/bt_configure_rf.ini \
@@ -474,7 +472,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/odm/lib/lwpPolicy/libcamSFPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSFPP.so \
     vendor/freeyond/M5A/proprietary/odm/lib/lwpPolicy/libcamSRPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSRPP.so \
     vendor/freeyond/M5A/proprietary/odm/lib/npidevice/autotestfm.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/autotestfm.so \
-    vendor/freeyond/M5A/proprietary/odm/lib/npidevice/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libcamcalitest.so \
     vendor/freeyond/M5A/proprietary/odm/lib/npidevice/libfm-sprd_eut.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libfm-sprd_eut.so \
     vendor/freeyond/M5A/proprietary/odm/lib64/hw/camera.ums9230.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/camera.ums9230.so \
     vendor/freeyond/M5A/proprietary/odm/lib64/libBokeh2Frames.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokeh2Frames.so \
@@ -811,7 +808,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/product/etc/sysconfig/preinstalled-packages-platform-overlays.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-overlays.xml \
     vendor/freeyond/M5A/proprietary/product/etc/sysconfig/turbo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/turbo.xml \
     vendor/freeyond/M5A/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
-    vendor/freeyond/M5A/proprietary/product/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/vintf/compatibility_matrix.xml \
     vendor/freeyond/M5A/proprietary/product/framework/com.google.android.dialer.support.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.google.android.dialer.support.jar \
     vendor/freeyond/M5A/proprietary/product/framework/oat/arm/com.google.android.dialer.support.odex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/com.google.android.dialer.support.odex \
     vendor/freeyond/M5A/proprietary/product/framework/oat/arm/com.google.android.dialer.support.vdex:$(TARGET_COPY_OUT_PRODUCT)/framework/oat/arm/com.google.android.dialer.support.vdex \
@@ -1028,43 +1024,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/product/media/audio/ui/WirelessChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/WirelessChargingStarted.ogg \
     vendor/freeyond/M5A/proprietary/product/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_click.ogg \
     vendor/freeyond/M5A/proprietary/product/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
-    vendor/freeyond/M5A/proprietary/product/overlay/CaptivePortalLoginFrameworkOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/CaptivePortalLoginFrameworkOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/FrameworkResOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/FrameworkResOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayASI.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayASI.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayCommon.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayCommon.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayComms.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayComms.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayGSA.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayGSA.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayGeotz.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayGeotz.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayPersonalSafety.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayPersonalSafety.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayPhotos.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayPhotos.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlaySearchSelector.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlaySearchSelector.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GmsConfigOverlayVelvet.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GmsConfigOverlayVelvet.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GoogleDocumentsUIOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GoogleDocumentsUIOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GoogleExtServicesConfigOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GoogleExtServicesConfigOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GooglePermissionControllerFrameworkOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GooglePermissionControllerFrameworkOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/GooglePermissionControllerOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/GooglePermissionControllerOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/ModuleMetadataGoogleOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/ModuleMetadataGoogleOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/SettingsProvider__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/SettingsProvider__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/Settings__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/Settings__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/SystemUI__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/SystemUI__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/TeleServiceOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/TeleServiceOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/TeleService__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/TeleService__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/Telecom__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/Telecom__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/WallpaperOverlay.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/WallpaperOverlay.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/framework-res__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/framework-res__auto_generated_rro_product.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/framework-res_navbar_rro.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/framework-res_navbar_rro.apk \
-    vendor/freeyond/M5A/proprietary/product/overlay/unisoc-res__auto_generated_rro_product.apk:$(TARGET_COPY_OUT_PRODUCT)/overlay/unisoc-res__auto_generated_rro_product.apk \
     vendor/freeyond/M5A/proprietary/product/usr/srec/en-US/APP_NAME.fst:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/APP_NAME.fst \
     vendor/freeyond/M5A/proprietary/product/usr/srec/en-US/APP_NAME.syms:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/APP_NAME.syms \
     vendor/freeyond/M5A/proprietary/product/usr/srec/en-US/CLG.prewalk.fst:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/CLG.prewalk.fst \
@@ -1142,7 +1101,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/app/DeviceagingTest/oat/arm64/DeviceagingTest.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DeviceagingTest/oat/arm64/DeviceagingTest.odex \
     vendor/freeyond/M5A/proprietary/system_ext/app/DeviceagingTest/oat/arm64/DeviceagingTest.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DeviceagingTest/oat/arm64/DeviceagingTest.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/app/DreamCamera2/DreamCamera2.apk.prof:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DreamCamera2/DreamCamera2.apk.prof \
-    vendor/freeyond/M5A/proprietary/system_ext/app/DreamCamera2/lib/arm64/libjni_sprd_srlite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DreamCamera2/lib/arm64/libjni_sprd_srlite.so \
     vendor/freeyond/M5A/proprietary/system_ext/app/DreamCamera2/oat/arm64/DreamCamera2.art:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DreamCamera2/oat/arm64/DreamCamera2.art \
     vendor/freeyond/M5A/proprietary/system_ext/app/DreamCamera2/oat/arm64/DreamCamera2.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DreamCamera2/oat/arm64/DreamCamera2.odex \
     vendor/freeyond/M5A/proprietary/system_ext/app/DreamCamera2/oat/arm64/DreamCamera2.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/DreamCamera2/oat/arm64/DreamCamera2.vdex \
@@ -1168,7 +1126,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/app/SoterService/oat/arm64/SoterService.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/SoterService/oat/arm64/SoterService.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/app/USCPhotoEdit_prebuilt/oat/arm64/USCPhotoEdit_prebuilt.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/USCPhotoEdit_prebuilt/oat/arm64/USCPhotoEdit_prebuilt.odex \
     vendor/freeyond/M5A/proprietary/system_ext/app/USCPhotoEdit_prebuilt/oat/arm64/USCPhotoEdit_prebuilt.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/USCPhotoEdit_prebuilt/oat/arm64/USCPhotoEdit_prebuilt.vdex \
-    vendor/freeyond/M5A/proprietary/system_ext/app/USCPhotosProvider/lib/arm64/libjni_sprd_facedetector_provider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/USCPhotosProvider/lib/arm64/libjni_sprd_facedetector_provider.so \
     vendor/freeyond/M5A/proprietary/system_ext/app/USCPhotosProvider/oat/arm64/USCPhotosProvider.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/USCPhotosProvider/oat/arm64/USCPhotosProvider.odex \
     vendor/freeyond/M5A/proprietary/system_ext/app/USCPhotosProvider/oat/arm64/USCPhotosProvider.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/USCPhotosProvider/oat/arm64/USCPhotosProvider.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/app/UnisocStk/oat/arm64/UnisocStk.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/UnisocStk/oat/arm64/UnisocStk.odex \
@@ -1312,7 +1269,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/etc/selinux/system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_sepolicy_and_mapping.sha256 \
     vendor/freeyond/M5A/proprietary/system_ext/etc/selinux/system_ext_service_contexts:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/selinux/system_ext_service_contexts \
     vendor/freeyond/M5A/proprietary/system_ext/etc/vilte/vertical_480.raw:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vilte/vertical_480.raw \
-    vendor/freeyond/M5A/proprietary/system_ext/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest.xml \
     vendor/freeyond/M5A/proprietary/system_ext/framework/com.unisoc.sdk.common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.unisoc.sdk.common.jar \
     vendor/freeyond/M5A/proprietary/system_ext/framework/oat/arm/com.unisoc.sdk.common.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/oat/arm/com.unisoc.sdk.common.odex \
     vendor/freeyond/M5A/proprietary/system_ext/framework/oat/arm/com.unisoc.sdk.common.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/oat/arm/com.unisoc.sdk.common.vdex \
@@ -1326,7 +1282,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/framework/uni-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/uni-telephony-common.jar \
     vendor/freeyond/M5A/proprietary/system_ext/framework/unipnp-framework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/unipnp-framework.jar \
     vendor/freeyond/M5A/proprietary/system_ext/framework/unisoc-framework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/unisoc-framework.jar \
-    vendor/freeyond/M5A/proprietary/system_ext/framework/unisoc-res.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/unisoc-res.apk \
     vendor/freeyond/M5A/proprietary/system_ext/lib/libAVRTTManager.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libAVRTTManager.so \
     vendor/freeyond/M5A/proprietary/system_ext/lib/libDehaze.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libDehaze.so \
     vendor/freeyond/M5A/proprietary/system_ext/lib/libInpaintLite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libInpaintLite.so \
@@ -1460,10 +1415,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/lib64/vendor.unisoc.hardware.power-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.unisoc.hardware.power-V1-ndk.so \
     vendor/freeyond/M5A/proprietary/system_ext/lib64/vendor.unisoc.hardware.radio-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.unisoc.hardware.radio-V1-ndk.so \
     vendor/freeyond/M5A/proprietary/system_ext/lib64/vendor.unisoc.hardware.radio.modem-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.unisoc.hardware.radio.modem-V1-ndk.so \
-    vendor/freeyond/M5A/proprietary/system_ext/overlay/GmsConfigOverlaySearchLauncherQuickStep.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/overlay/GmsConfigOverlaySearchLauncherQuickStep.apk \
-    vendor/freeyond/M5A/proprietary/system_ext/priv-app/AIEngineService/lib/arm64/libtensorflowlite_jni_prebuilt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/AIEngineService/lib/arm64/libtensorflowlite_jni_prebuilt.so \
-    vendor/freeyond/M5A/proprietary/system_ext/priv-app/AIEngineService/lib/arm64/libtextclassifier_hash_prebuilt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/AIEngineService/lib/arm64/libtextclassifier_hash_prebuilt.so \
-    vendor/freeyond/M5A/proprietary/system_ext/priv-app/AIEngineService/lib/arm64/libtflite_prebuilt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/AIEngineService/lib/arm64/libtflite_prebuilt.so \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/CarrierConfig/oat/arm64/CarrierConfig.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CarrierConfig/oat/arm64/CarrierConfig.odex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/CarrierConfig/oat/arm64/CarrierConfig.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/CarrierConfig/oat/arm64/CarrierConfig.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/EmergencyInfoGms/oat/arm64/EmergencyInfoGms.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EmergencyInfoGms/oat/arm64/EmergencyInfoGms.odex \
@@ -1506,7 +1457,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/UniWifiDialog/oat/arm64/UniWifiDialog.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/UniWifiDialog/oat/arm64/UniWifiDialog.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.odex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.vdex \
-    vendor/freeyond/M5A/proprietary/system_ext/priv-app/ims/lib/arm64/libn3am_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libn3am_jni.so \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/ims/oat/arm64/ims.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/oat/arm64/ims.odex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/ims/oat/arm64/ims.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/oat/arm64/ims.vdex \
     vendor/freeyond/M5A/proprietary/system_ext/priv-app/radio_interactor_service/oat/arm64/radio_interactor_service.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/radio_interactor_service/oat/arm64/radio_interactor_service.odex \
@@ -2317,44 +2267,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/freeyond/M5A/proprietary/vendor/etc/uniber.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uniber.conf \
     vendor/freeyond/M5A/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/ai_engine-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/ai_engine-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.example.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb-service.example.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/cplog_svc-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/cplog_svc-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/enhance-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/enhance-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/face-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/face-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/hdcp-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/hdcp-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/lights.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/manifest_dualsim.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_dualsim.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/memtrack.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/network-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/network-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/power.stats-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power.stats-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/rebootescrow-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/soter_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/soter_default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/trusty-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/trusty-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor-fingerprintmmi-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor-fingerprintmmi-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor-log-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor-log-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor-oemlock-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor-oemlock-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor-power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor-power-default.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.2-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml \
-    vendor/freeyond/M5A/proprietary/vendor/etc/vintf/manifest/vibrator.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator.xml \
     vendor/freeyond/M5A/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/freeyond/M5A/proprietary/vendor/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml \
     vendor/freeyond/M5A/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
@@ -4022,7 +3934,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/firmware/s5kjn1_50w/prv0_portrait/YUV_NOISEFILTER_20579.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/s5kjn1_50w/prv0_portrait/YUV_NOISEFILTER_20579.bin \
     vendor/freeyond/M5A/proprietary/vendor/firmware/s5kjn1_50w/prv0_portrait/YUV_PRECDN_20573.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/s5kjn1_50w/prv0_portrait/YUV_PRECDN_20573.bin \
     vendor/freeyond/M5A/proprietary/vendor/firmware/soter.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/soter.elf \
-    vendor/freeyond/M5A/proprietary/vendor/firmware/tsx_data:$(TARGET_COPY_OUT_VENDOR)/firmware/tsx_data \
     vendor/freeyond/M5A/proprietary/vendor/framework/androidx.camera.extensions.impl.jar:$(TARGET_COPY_OUT_VENDOR)/framework/androidx.camera.extensions.impl.jar \
     vendor/freeyond/M5A/proprietary/vendor/lib/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.common@2.0.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.device@2.0.so \
@@ -4321,7 +4232,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/lib/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvaidl.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/freeyond/M5A/proprietary/vendor/lib/modules:$(TARGET_COPY_OUT_VENDOR)/lib/modules \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/PQTune.ums9230.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/autotestfinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfinger.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/autotestotg.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestotg.so \
@@ -4351,11 +4261,9 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/liblkvnpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/liblkvnpi.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libmiscdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libmiscdata.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libnefuse.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libnefuse.so \
-    vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libnpi_rtc.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libnpi_rtc.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libpartinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libpartinfo.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libreadfixednv.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libreadfixednv.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/librebootcmd.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/librebootcmd.so \
-    vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libsensornpi.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libsoter_checkx.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libsoter_checkx.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libtsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libtsensor.so \
     vendor/freeyond/M5A/proprietary/vendor/lib/npidevice/libtsxrawdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libtsxrawdata.so \
@@ -4732,19 +4640,7 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/lib64/vendor.unisoc.hardware.radio.sim-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.unisoc.hardware.radio.sim-V1-ndk.so \
     vendor/freeyond/M5A/proprietary/vendor/lib64/vendor.unisoc.hardware.radio.voice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.unisoc.hardware.radio.voice-V1-ndk.so \
     vendor/freeyond/M5A/proprietary/vendor/media/engtest_sample.pcm:$(TARGET_COPY_OUT_VENDOR)/media/engtest_sample.pcm \
-    vendor/freeyond/M5A/proprietary/vendor/odm:$(TARGET_COPY_OUT_VENDOR)/odm \
     vendor/freeyond/M5A/proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/AospBtOverlay/AospBtOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AospBtOverlay/AospBtOverlay.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/AospWifiOverlay_Marlin3/AospWifiOverlay_Marlin3.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AospWifiOverlay_Marlin3/AospWifiOverlay_Marlin3.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/AospWifiOverlay_Marlin3_Mainline/AospWifiOverlay_Marlin3_Mainline.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AospWifiOverlay_Marlin3_Mainline/AospWifiOverlay_Marlin3_Mainline.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/MultiuserOverlays.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MultiuserOverlays.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/NetworkStackOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NetworkStackOverlay.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/NetworkStackOverlayGsi.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NetworkStackOverlayGsi.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/Settings__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/Settings__auto_generated_rro_vendor.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/TetheringConfigOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/TetheringConfigOverlay.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/TetheringConfigOverlayGsi.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/TetheringConfigOverlayGsi.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/UniWifiOverlay_Marlin3/UniWifiOverlay_Marlin3.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/UniWifiOverlay_Marlin3/UniWifiOverlay_Marlin3.apk \
-    vendor/freeyond/M5A/proprietary/vendor/overlay/unisoc_overlay_frameworks_res.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/unisoc_overlay_frameworks_res.apk \
     vendor/freeyond/M5A/proprietary/vendor/usr/idc/adaptive_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/adaptive_ts.idc \
     vendor/freeyond/M5A/proprietary/vendor/usr/idc/focaltech_ats.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ats.idc \
     vendor/freeyond/M5A/proprietary/vendor/usr/idc/focaltech_spi_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_spi_ts.idc \
@@ -4880,3 +4776,4 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor_dlkm/lib/modules/wcn_bsp.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/wcn_bsp.ko \
     vendor/freeyond/M5A/proprietary/vendor_dlkm/lib/modules/zram.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/zram.ko \
     vendor/freeyond/M5A/proprietary/vendor_dlkm/lib/modules/zsmalloc.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/zsmalloc.ko
+
