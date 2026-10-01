@@ -1813,7 +1813,6 @@ PRODUCT_COPY_FILES += \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.enableswap_1g:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap_1g \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.enableswap_2g:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap_2g \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.enableswap_3g:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap_3g \
-    vendor/freeyond/M5A/proprietary/vendor/etc/fstab.ums9230_1h10:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_1h10 \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.ums9230_1h10_go:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_1h10_go \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.ums9230_4h10:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_4h10 \
     vendor/freeyond/M5A/proprietary/vendor/etc/fstab.ums9230_4h10_go:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_4h10_go \
