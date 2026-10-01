@@ -1,13 +1,22 @@
+# Lazy/on-demand fingerprint HAL service
+# Overlays vendor init to prevent automatic start; start with setprop vendor.fp.start 1
+
 service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-    # "class hal" causes a race condition on some devices due to files created
-    # in /data. As a workaround, postpone startup until later in boot once
-    # /data is mounted.
+    # postpone by using late_start class (as before)
     class late_start
+    disabled                             # do not start automatically at boot
     user system
     group system input uhid
-    task_profiles ServiceCapacityLow
-    disabled
     writepid /dev/cpuset/system-background/tasks
 
-on property:ro.vendor.fps.support=true
+# Start on explicit property
+on property:vendor.fp.start=1
     start vendor.fps_hal
+
+# Stop on explicit property (optional way to stop it)
+on property:vendor.fp.stop=1
+    stop vendor.fps_hal
+
+# Ensure directory exists; keep this as original
+on post-fs-data
+    mkdir /data/vendor/tran_fp 0766 system system
