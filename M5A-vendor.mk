@@ -3,6 +3,8 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/freeyond/M5A
 
+# Stock apps that replace or clash with LineageOS/GApps components (SystemUI, SetupWizard,
+# StorageManager, launcher, contacts/calendar providers, Google stubs) are intentionally NOT installed.
 PRODUCT_PACKAGES += \
     AutoRecordingTest \
     CamTa \
@@ -12,8 +14,6 @@ PRODUCT_PACKAGES += \
     DreamFMRadio \
     DreamSoundRecorderPrebuilt \
     EngineerMode \
-    GmsEEAType4cIntegration \
-    GmsSampleIntegration \
     LinkTurbo \
     RuntimeTest \
     SGPS \
@@ -22,29 +22,15 @@ PRODUCT_PACKAGES += \
     USCPhotosProvider \
     UnisocStk \
     ValidationTools \
-    WAPPushManager \
     AIEngineService \
-    CarrierConfig \
-    EmergencyInfoGms \
-    GoogleFeedback \
-    GoogleServicesFramework \
     NetworkSliceAgent \
     OmacpPrebuilt \
-    PowerSaveModeLauncherPrebuilt \
     RemoteProvisioner \
-    SearchLauncherQuickStep \
     ServiceUniWifiResources \
-    SetupWizard \
-    SprdCalendarProviderPrebuilt \
-    SprdContactsProvider \
     Srmi \
-    StorageManager \
-    SystemUI \
-    ThemePicker \
     UniSilentReboot \
     UniTelephony \
     UniWifiDialog \
-    WallpaperCropper \
     ims \
     radio_interactor_service \
     LogManager \
